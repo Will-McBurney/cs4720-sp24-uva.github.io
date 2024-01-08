@@ -6,7 +6,7 @@ description: "CS 4720 - Mobile Application Development"
 permalink: /
 ---
 
-# CS 4720 - Fall 2022
+# CS 4720 - Spring 2024
 ## Mobile Application Development
 Our course is an introductory course in mobile application development. We will focus on both the unique nature of building apps for mobile devices, including challenges with usability, privacy, and third-party integration. 
 
@@ -18,20 +18,22 @@ Upon successful completion of this course, students will:
 * Understand the privacy, ethical, usability, and accessibility issues specific to mobile;
 * Have a familiarity with at least one mobile platform and programming language.
 
+Links are forthcoming
+
 [Online Coursepack](https://www.cs4720.org){: .btn  .btn-primary .mr-2 }
-[Gradescope](https://www.gradescope.com/courses/413658){: .btn .btn-primary .mr-2  }
-[Piazza](https://piazza.com/class/l6fccdmluj73ia){: .btn .btn-primary .mr-2  }
-[Collab](https://collab.its.virginia.edu/portal/site/6ba3015f-489d-4fe1-9c5d-ce4e306fc578){: .btn .btn-primary .mr-2  }
-[GitHub](https://github.com/uva-cs4720-f22){: .btn .btn-primary .mr-2  }
+[Gradescope](){: .btn .btn-primary .mr-2  }
+[Piazza](){: .btn .btn-primary .mr-2  }
+[Collab](){: .btn .btn-primary .mr-2  }
+[GitHub](https://github.com/cs4720-sp24-uva){: .btn .btn-primary .mr-2  }
 
 ## Lecture Sessions
-Mondays, Wednesdays, and Fridays @ 2:00 PM-2:50 PM in OLS 018   
+Mondays, Wednesdays, and Fridays @ 12:00 PM-12:50 PM in Thornton Hall A120  
 
 ## Staff Information
-__Instructor:__ Prof. Mark Sherriff   
-Office: Rice 400   
-Office Hours: Tuesdays, 11:00 AM-12:30 PM and Wednesdays, 9:00 AM-10:30 AM   
-Email: [sherriff@virginia.edu](mailto:sherriff@virginia.edu)    
-Website: [http://marksherriff.com](http://marksherriff.com)    
+__Instructor:__ Prof. Will McBurney  
+Office: Rice 404   
+Office Hours: TBD   
+Email: [mcburney@virginia.edu](mailto:mcburney@virginia.edu)    
+Website: [https://www.cs.virginia.edu/~pm8fc/](https://www.cs.virginia.edu/~pm8fc/)    
 
 __Teaching Assistants:__ TBD  

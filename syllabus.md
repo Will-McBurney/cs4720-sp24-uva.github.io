@@ -16,17 +16,17 @@ nav_order: 2
 ## Basic Info
 {: .no_toc }
 Fall 2022 Semester   
-https://f22.cs4720.org   
+https://cs4720-sp24-uva.github.io/  
 
 ## Lecture Sessions
 Mondays, Wednesdays, and Fridays @ 2:00 PM-2:50 PM in OLS 018   
 
 ## Staff Information
-__Instructor:__ Prof. Mark Sherriff   
-Office: Rice 400   
-Office Hours: Tuesdays, 11:00 AM-12:30 PM and Wednesdays, 9:00 AM-10:30 AM  
-Email: [sherriff@virginia.edu](mailto:sherriff@virginia.edu)    
-Website: [http://marksherriff.com](http://marksherriff.com)    
+__Instructor:__ Prof. Will McBurney  
+Office: Rice 404   
+Office Hours: TBD  
+Email: [mcburney@virginia.edu](mailto:mcburney@virginia.edu)    
+Website: [https://www.cs.virginia.edu/~pm8fc/](https://www.cs.virginia.edu/~pm8fc/)    
 
 __Teaching Assistants:__ TBD  
 
@@ -69,7 +69,7 @@ Upon successful completion of this course, students will:
 ### Piazza
 {: .no_toc }
 
-Piazza @ [https://piazza.com/class/l6fccdmluj73ia](https://piazza.com/class/l6fccdmluj73ia)    
+Piazza @ [Link forthcoming]()    
 
 We will be using Piazza for the following:
 
@@ -124,10 +124,10 @@ We will utilize a positive-reinforcement grading policy in this course. Your gra
 
 You are not required to own a mobile device of any particular kind for this course.  The bulk of development will take place in the emulators provided by the platforms.  If you wish to check out a device, we have some options available.  
 
-* __Windows:__ If you only have access to a Windows machine, you should probably focus on Android and React Native development.  If you wish to develop an iOS app, you can also use cloud services such as http://www.macincloud.com/ at your own cost.
+* __Windows:__ If you only have access to a Windows machine, you should probably focus on Android and Flutter development.  If you wish to develop an iOS app, you can also use cloud services such as http://www.macincloud.com/ at your own cost.
 * __Mac:__ If you have access to a MacOS machine, you can develop for any of the three platforms.
-* __Android:__ Samsung tablet devices are available for students to check out for development. Students are welcome to use their own Android devices if they like. Due to device limiations, we strongly suggest students avoid creating apps that lean heavily on phone-only features, such as calling or SMS. Android code should be developed in Android Studio in Windows or macOS.
-* __iOS:__ iPod Touch devices are availalbe for students to check out for development. Students are welcome to use their own iOS devices if they like. Due to device limiations, we strongly suggest students avoid creating apps that lean heavily on phone-only features, such as calling or SMS. iOS code should be developed using Swift in Xcode. 
+* __Android:__ Samsung tablet devices are available for students to check out for development. Students are welcome to use their own Android devices if they like. Due to device limitations, we strongly suggest students avoid creating apps that lean heavily on phone-only features, such as calling or SMS. Android code should be developed in Android Studio in Windows or macOS.
+* __iOS:__ iPod Touch devices are available for students to check out for development. Students are welcome to use their own iOS devices if they like. Due to device limitations, we strongly suggest students avoid creating apps that lean heavily on phone-only features, such as calling or SMS. iOS code should be developed using Swift in Xcode. 
 * __React Native:__ As React Native is intended to be platform independent, you can use any device for these apps.  However, we would recommend Android devices due to ease of deployment.
 
 ### Attendance
@@ -136,7 +136,7 @@ You are not required to own a mobile device of any particular kind for this cour
 * Attendance in lecture is vital to learning the material and making a good grade in this class.
 * That said, you are adults and can make your own decisions regarding coming or not coming to class.  I will not take attendance.
 * It is not necessary to inform me of missing a class __unless__ you are missing one of the noted quiz days.
-* If you are going to miss a quiz, you must inform me more than 24 hours in advance to discuss your reason and options for making up the quiz (if possible).  In case of illness or emergency, please inform me when you are able to do so within reason.
+* If you are going to miss a quiz, you must inform me more than 24 hours in advance to discuss your reason and options for making up the quiz (if possible).
 
 ### Late Policy
 {: .no_toc }
@@ -169,7 +169,7 @@ _Summary_:
 * Know the honor code
 * Work with your team, but not any other team
 * Using code from other students (from any semester) is an honor violation
-* Using publically-available example code and libraries is fine, but you must cite your resources
+* Using publicly-available example code and libraries is fine, but you must cite your resources
 * More information on what is allowed will be included with each assignment if necessary
 * It never hurts to ask the staff what is allowed or not allowed!
 
@@ -264,6 +264,6 @@ The same resources and options for individuals who experience sexual misconduct 
 
 If you witness or are aware of someone who has experienced prohibited conduct, you are encouraged to submit a report to [Just Report It](https://justreportit.virginia.edu/) (justreportit.virginia.edu) or [contact EOCR](mailto:UVAEOCR@virginia.edu), the office of Equal Opportunity and Civil Rights.
 
-If you would prefer to disclose such conduct to a confidential resource where what you share is not reported to the University, you can turn to [Counseling & Psychological Services (“CAPS”)](https://www.studenthealth.virginia.edu/caps) and [Women’s Center Counseling Staff and Confidential Advocates](https://womenscenter.virginia.edu/confidential-advocates) (for students of all genders).  
+If you prefer to disclose such conduct to a confidential resource where what you share is not reported to the University, you can turn to [Counseling & Psychological Services (“CAPS”)](https://www.studenthealth.virginia.edu/caps) and [Women’s Center Counseling Staff and Confidential Advocates](https://womenscenter.virginia.edu/confidential-advocates) (for students of all genders).  
 
 As your professor and as a person, know that I care about you and your well-being and stand ready to provide support and resources as I can. As a faculty member, I am a responsible employee, which means that I am required by University policy and by federal law to report certain kinds of conduct that you report to me to the University's Title IX Coordinator. The Title IX Coordinator's job is to ensure that the reporting student receives the resources and support that they need, while also determining whether further action is necessary to ensure survivor safety and the safety of the University community. 
