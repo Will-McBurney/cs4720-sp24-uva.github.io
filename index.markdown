@@ -20,11 +20,10 @@ Upon successful completion of this course, students will:
 
 Links are forthcoming
 
-[Online Coursepack](https://www.cs4720.org){: .btn  .btn-primary .mr-2 }
-[Gradescope](){: .btn .btn-primary .mr-2  }
-[Piazza](){: .btn .btn-primary .mr-2  }
-[Collab](){: .btn .btn-primary .mr-2  }
-[GitHub](https://github.com/cs4720-sp24-uva){: .btn .btn-primary .mr-2  }
+[Gradescope](https://www.gradescope.com/courses/698723){: .btn .btn-primary .mr-2  }
+[Piazza](https://piazza.com/class/lr546t74wl57e/){: .btn .btn-primary .mr-2  }
+[Canvas](https://canvas.its.virginia.edu/courses/104456){: .btn .btn-primary .mr-2  }
+[GitHub](https://cs4730-sp24-uva.github.io/){: .btn .btn-primary .mr-2  }
 
 ## Lecture Sessions
 Mondays, Wednesdays, and Fridays @ 12:00 PM-12:50 PM in Thornton Hall A120  
