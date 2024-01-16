@@ -62,7 +62,7 @@ Upon successful completion of this course, students will:
 {: .no_toc }
 1. Prereq: Old Curriculum - CS 2150 / New Curriculum - CS 3140
 2. Can attend class regularly.
-3. You will be expected to learn programming languages and platforms on your own in this class! If you don’t feel comfortable with this, please talk to Prof. Sherriff as soon as possible!
+3. You will be expected to learn programming languages and platforms on your own in this class! If you don’t feel comfortable with this, please talk to Prof. McBurney as soon as possible!
 
 ## Communication and Logistics
 
