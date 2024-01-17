@@ -16,10 +16,11 @@ Upon successful completion of this course, students will:
 * Understand the basic technology and platforms for mobile development;
 * Understand the software engineering concepts necessary to develop mobile apps (and other large systems) in a group;
 * Understand the privacy, ethical, usability, and accessibility issues specific to mobile;
-* Have a familiarity with at least one mobile platform and programming language.
+* Have a familiarity with at least one mobile platform and two development frameworks (Jetpack Compose and Flutter)
 
 Links are forthcoming
 
+[Drive Folder](https://drive.google.com/drive/folders/1Ego0PG46KX04mYHb6KgaUKz0Vek1u7WS?usp=drive_link){: .btn .btn-primary .mr-2  }
 [Gradescope](https://www.gradescope.com/courses/698723){: .btn .btn-primary .mr-2  }
 [Piazza](https://piazza.com/class/lr546t74wl57e/){: .btn .btn-primary .mr-2  }
 [Canvas](https://canvas.its.virginia.edu/courses/104456){: .btn .btn-primary .mr-2  }
