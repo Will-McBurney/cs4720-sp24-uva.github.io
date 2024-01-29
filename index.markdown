@@ -33,11 +33,18 @@ Mondays, Wednesdays, and Fridays @ 12:00 PM-12:50 PM in Thornton Hall A120
 __Instructor:__ Prof. Will McBurney  
 Office: Rice 404   
 Office Hours: (in-person only)  
-* Monday: 1:30 - 3p.m.  
-* Tuesday: 3:30 - 5:00p.m.  
-* Friday: 1:30 - 3:00p.m. - Be aware, these are general office hours for both classes and CS Minors  
+* Monday: 1:30 - 3:00 p.m.  
+* Tuesday: 3:30 - 5:00 p.m.  
+* Friday: 1:30 - 3:00 p.m. - Be aware, these are general office hours for both classes and CS Minors  
 
 Email: [mcburney@virginia.edu](mailto:mcburney@virginia.edu)    
 Website: [https://www.cs.virginia.edu/~pm8fc/](https://www.cs.virginia.edu/~pm8fc/)    
 
-__Teaching Assistants:__ TBD  
+## TA Office Hours
+
+All TA Office Hours are in Rice 442
+
+### Sneha Srinivasan
+
+Thursday: 10:00 - 11:00 a.m.
+Fridays: 3:00 - 6:00 p.m.
