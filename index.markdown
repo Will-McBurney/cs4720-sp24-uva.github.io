@@ -48,3 +48,7 @@ All TA Office Hours are in Rice 442
 
 Thursday: 10:00 - 11:00 a.m.
 Fridays: 3:00 - 6:00 p.m.
+
+### Scott Sikorski
+
+Monday, Tuesday, Wednesday: 6-8 p.m.
