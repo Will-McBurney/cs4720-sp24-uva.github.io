@@ -92,11 +92,11 @@ For the app itself, you do not need to do any manual submission.  We will grade 
 For the report described below, please submit the required information into the associated assignment in Gradescope.
 
 * 10 XP: App can launch properly into the List Activity
-* 10 XP: Tapping on the floating action button launches the Add New Item activity
+* 15 XP: Tapping on the Add Item button launches the Add New Item activity
 * 20 XP: A new item is put into the list in the correct location after saving
 * 10 XP: Tapping on the checkbox registers the item as complete and it moves to the bottom of the list
 * 10 XP: Tapping on the edit button for an item opens the Edit Item activity
-* 10 XP: The Edit Item activity is pre-populated with all appropriate data
+* 15 XP: The Edit Item activity is pre-populated with all appropriate data
 * 10 XP: Changes Saved in the Edit Item activity are properly reflected back in the list
 * 10 XP: The save and edit buttons work properly on both the Add and Edit screen
 * 5 XP: App does not crash on rotate (you do not need to create a "landscape" layout, just your app shouldn't crash)
