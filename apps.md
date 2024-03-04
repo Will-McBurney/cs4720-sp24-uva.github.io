@@ -126,3 +126,123 @@ Changes made to the GitHub repo after the due date and time will incur the follo
 1. Note that a "Bucket List" is a fairly simply to a to-do list CRUD app (Create, Read, Update, Delete).  
 2. Consider that when you are looking for tutorials.
 3. If you use code from elsewhere, it MUST be cited.  Also, wholesale using the "solution" from a tutorial you find that's "close enough" in your opinion is not going to earn any XP.
+
+
+## UVA Bus Lines (Flutter)
+
+
+
+### Summary
+
+Build an app to allow users to see bus route maps, as well as their own current location. This app
+must be built as a Flutter project which includes Android and iOS (but will only be graded on Android).
+
+Gradescope link: https://classroom.github.com/a/0XLCoc9s
+
+### Data Source
+
+You will need to use a web API to ingest data to show: https://www.cs.virginia.edu/~pm8fc/busses/busses.json 
+
+
+Be aware that you should **dynamically** read in this data at startup (no API key required), do not "hard code" 
+the data on this page, or store it in a local database. However, you can limit to only reading *at* startup (i.e., don't worry about changes *while* the app is running). This data *will* be changed when we are grading!
+
+### Map API
+
+For this app, you will need to use a Map View to show BusRoutes as well as the current user location. We will *not*
+be explicitly covering map apis in class, so it is intended for you to "learn by doing." The easiest approach is to use
+either Google Maps API or OpenStreetMaps API (Apple Maps may not be used due to their device exclusivity).
+
+This app *will* require users granting permission for location via GPS. 
+
+Here are helpful links to get started. Be aware you should *only* pick one of these two for your app.
+
+Google Maps: https://pub.dev/packages/google_maps_flutter 
+
+Open Street Maps: https://pub.dev/packages/flutter_osm_plugin 
+
+Be aware that Google's API keys require a credit card. However, you should not come close to actually being charged over
+the course of this assignment.
+
+You will also need an API key to use these. However, this API key **should not be pushed** - when grading, we will use
+our own API keys. All API keys should be stored in your project in a file **api\api_keys.json** in the following format:
+
+```json
+{
+   "MAPS_KEY": "your-api-key-goes-here"
+}
+```
+
+Please make sure you use the above format **exactly** and keep the "MAPS_KEY" as your API key (regardless whichever service you use),
+as this is how we will plug in our own API key to test your app.
+
+### Platform Requirements
+
+This assignment will be graded specifically on an Android emulator, so ensure your assignment works on Android. However,
+you should still setup permissions for iOS for location and API usage.
+
+### The App Interface
+
+#### List View
+
+On start-up, you should see a list of Bus Line names (such as "Red Line", "Blue Line", etc.) that are pulled from the above
+.json file. Each of these names, when clicked, should pull up a Map View of those routes on the Map page. Additionally,
+each route should have a **favorite button** next to it that is initially unselected. This button will mark that particular
+busline as a favorite. **You must persist which routes are marked favorite** such that closing and reopening the app shows the same routes as favorited (You can use a SQLite database or shared preferences, whichever you prefer).
+
+The list should be sorted **favorites first**, and then alphabetically. So if the routes are Apple, Banana, Carrot, Durian, and I favorite
+Banana and Durian, my list should be in order:
+
+* Banana  
+* Durian  
+* Apple  
+* Carrot  
+
+You only need to list the bus line names, but the name should be displayed using that route's "text_color" from the JSON.
+
+#### Map View
+
+When you click on a bus line, it should take you to the map view. The map view should show all the stops along the selected
+line as pins on the map (you should *not* try to connect these pins with a line or driving directions, as that can start
+to eat into your API "free limit"). 
+
+The map should be initially bounded by the "bounds" part of that line's JSON for instance, the 29 North Connect Line should be
+bound by: 
+
+* 38.031599,  (southern boundary)
+* -78.508578, (western boundary)
+* 38.130205, (northern boundary)
+* -78.436039 (eastern boundary)
+
+From there, the map should support controls such as sliding to move the map, pinching/spreading for zooming in and out. Note that many pre-built map widgets already implement this behavior.
+
+Additionally, the user's location should be visible on the map (unless the user's location is outside of the current map boundary) via their GPS coordinates for testing purposes on our emulator, I recommend setting the device's GPS coordinates to: 38.0316° N, 78.5108° W, which is Rice Hall.
+
+Each Pin, when clicked/tapped, should show the name of the Bus Stop.
+
+From the map view, hitting the "back button" should take you back to the List View
+
+#### Grading
+
+The App is worth 150XP
+
+List View  (70XP)
+- The app should start up on a list view of all buslines from the API by name (15 XP)  
+- The names of the bus-line should be in the color specified from the web-service (5 XP)  
+- The app should ask the user for GPS permission on the *first* startup - for grading purposes, you can assume we as the users will accept this permission. (10 XP)  
+- Each bus line in the list view should have a favorite button that bus line as favorite, where the button should communicate whether the item is already favorited. This could be something like using a hollow-star if not-favorited, and a filled-in star in favorited. (10 XP)  
+- Favoriting a bus line must be persistent - that is, if I favorite a line, close the app, then re-open the app, that line must still be favorited. (10 XP)  
+- Favorite bus lines must be sorted before unfavorite buslines, and then by alphabetical order. (10 XP)  
+- The sorting should dynamically update whenever a busline is favorite/unfavorited (10 XP)  
+
+Map View  (70XP)
+- Clicking on a busline should open a map view. (10 XP)  
+- Hitting the back button in the map view takes you back to the list view (10 XP)  
+- The map should be initially bounded from the data in the JSON (10 XP)  
+- All bus stops on the selected route, and *only* the stops on the selected route, should be visible as pins (10XP)  
+- Each pin, when tapped, shows a label contain that Stop's name (10 XP)  
+- The map should be "moveable" and "zoomable" (10 XP)  
+- The users GPS location should be shown, assuming it is within the map's boundaries (10 XP)  
+
+In addition, when submitting on Gradescope, there will be on question to answer for 10XP
+
