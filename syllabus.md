@@ -101,15 +101,16 @@ _PLEASE_ make sure to put "CS 4720" in the subject line somewhere so I can keep 
 ## Assessment and Grading
 We will utilize a positive-reinforcement grading policy in this course. Your grade in this course will be based on experience points (XP). Every student begins the course with 0 XP.  As you complete assessments and quizzes, you will earn XP.  Some assessments will have a way to retake or resubmit to earn some of the XP that was not earned on the first attempt.  Please see individual assessments for more information regarding how this mechanic works.
 
-| Assessment	                                 | Who	| Max XP |
-|:--------------------------------------------|:----|:-----|
-| Practice App 1 (Android)                    |	Individual |	150 |
-| Practice App 2 (Flutter)                    |	Individual |	150 |
-| Final App Project (Student Choice Platform) |	Individual or Pair | 250 |
-| Quiz 1 - Platforms                          |	Individual | 150 |
-| Quiz 2 - Data and Service                   |	Individual | 150 |
-| Quiz 3 - User Experience                    |	Individual | 150 |
-| __Total Course XP__                         | | 1000 |
+| Assessment	                                 | Who	                | Max XP |
+|:--------------------------------------------|:--------------------|:-------|
+| Hello World App (Android)                   | Individual          | 30     |
+| Practice App 1 (Android)                    | 	Individual         | 	150   |
+| Practice App 2 (Flutter)                    | 	Individual         | 	150   |
+| Final App Project (Student Choice Platform) | 	Individual or Pair | 250    |
+| Quiz 1 - Platforms                          | 	Individual         | 140    |
+| Quiz 2 - Data and Service                   | 	Individual         | 140    |
+| Quiz 3 - User Experience                    | 	Individual         | 140    |
+| __Total Course XP__                         |                     | 1000   |
 
 ### Assessment Notes
 {: .no_toc }
