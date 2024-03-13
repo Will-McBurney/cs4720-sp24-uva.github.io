@@ -246,3 +246,65 @@ Map View  (70XP)
 
 In addition, when submitting on Gradescope, there will be on question to answer for 10XP
 
+## Final Project
+
+For the final project, you may make your app using any of the following:
+
+* Android native development with Jetpack Compose  
+* Flutter with support for Android *and* iOS - graded on Android  
+* iOS native (be aware that the professor will not be able to do regrade appeals as he does not have an iOS device)  
+
+We will flesh out the GitHub assignment link and proposal form in class on Friday. However, in general, your app requirements break down into two groups:
+
+1) **Required** requirements (200XP)  - All of these requirements must be implemented to a professional level.  
+2) **Optional** requirements (50XP up to 75XP) - you must select a subset of several features to implement, but are not required to implement all the features. Be aware that you *must* implement 120 XPs worth of optional features to receive full credit.  
+
+## Prohibited applications
+
+Applications similar to previous homeworks or in-class examples are explicitly prohibited. You must be building something unique from any previous class work. 
+
+### Require Features (200XP)
+
+Your project must implement *all* of the following features:
+
+1) At least 3 "screens" or major features. These screens must have at least one major feature with at least one user interaction. Trivial screens/splash screens/screens that do not tie to app features will not be accepted.  
+2) App can be interrupted without losing UI state (example, if I'm using the app, then minimize it to take a phone call, then reopen the app, the state should be preserved)  
+3) Design and Presentation - Your app should be reasonably well-polished and presented. This includes layouts, colors, fonts, animations/feedback from interactions, etc.  
+4) Your app must use Firebase Authentication (https://firebase.google.com/docs/auth) for user management with support for username/password (there is an optional feature for supporting other log-in approaches, but username password *must* be an option). The login information should be stored on the local device such that it need not be re-entered everytime the application is started.  
+5) Your app must store and retrieve some user-created data from Firebase [Cloud Firestore](https://firebase.google.com/docs/firestore).
+
+### Optional Requirements
+
+You must select up to 50 XP's worth of features to get full credit. You can earn up to, but not in excess of, 75 XP's worth of features (that is, 25XP extra credit) - You cannot propose more than 75XP, however. Additionally, you cannot later implement features you didn't propose for extra credit.
+
+25 XP - Consume data from some relevant external API that meaningfully ties to the app. Note that using Firebase here does not count: you need to use a **relevant** external API (you must state in your declaration exactly which API you plan to use and what you plan to use it for - do not say "we'll find a ______ API" - be specific)
+
+25 XP - Use of Camera directly in the app (this is *not* the same as using the Pictures folder to access existing pictures or other files)
+
+25 XP - In-App messaging with other users via at least text (pictures/file sharing optional) - This must explicitly be messaging *in-application* - sharing contact information is not sufficient!
+
+25 XP - Microphone/Audio management - similar to Camera
+
+20 XP - Meaningful use of GPS - if using GPS with a map, that map must be directly relevant to the applications features! No blank maps!
+
+20 XP - Meaningful use of accelerometer with "tilting", not counting auto-rotating to landscape when phone turned sideways. The purpose must be meaningful to the app experience, not tacked on and unrelated to existing features, to count.
+
+20 XP - Meaningful use of accelerometer with "shaking" - same requirements as above. Be aware, you cannot do *both* tilting and shaking, but you may do one or the other.
+
+15 XP - File Downloading/Uploading, including things like profile pictures, images, etc.
+
+15 XP - Meaningful user settings/preferences that are persisted locally on the device (you need at least 3 meaningful settings)
+
+15 XP - Share functionality for sharing via email, SMS, Facebook, Twitter, etc. - must interact with some other app in a meaningful way.
+
+Other features - you may propose other features which can be accepted and assigned XP at the instructor's discretion.
+
+### Project Declaration
+
+A formal template will be posted soon, however, you should submit a project proposal to Gradescope. This proposal should state:
+
+1) What is the general purpose of the application.  
+2) What platform you will be using  (Android native, Flutter, or iOS)  
+3) What features and screens you intend to implement  
+4) What data will be stored in Cloud Firebase  
+5) Which optional features do you intend to implement, and how will they  contribute to the applications features.  
