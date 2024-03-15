@@ -259,7 +259,7 @@ We will flesh out the GitHub assignment link and proposal form in class on Frida
 1) **Required** requirements (200XP)  - All of these requirements must be implemented to a professional level.  
 2) **Optional** requirements (50XP up to 75XP) - you must select a subset of several features to implement, but are not required to implement all the features. Be aware that you *must* implement 120 XPs worth of optional features to receive full credit.  
 
-## Prohibited applications
+### Prohibited applications
 
 Applications similar to previous homeworks or in-class examples are explicitly prohibited. You must be building something unique from any previous class work. 
 
@@ -267,17 +267,21 @@ Applications similar to previous homeworks or in-class examples are explicitly p
 
 Your project must implement *all* of the following features:
 
-1) At least 3 "screens" or major features. These screens must have at least one major feature with at least one user interaction. Trivial screens/splash screens/screens that do not tie to app features will not be accepted.  
-2) App can be interrupted without losing UI state (example, if I'm using the app, then minimize it to take a phone call, then reopen the app, the state should be preserved)  
-3) Design and Presentation - Your app should be reasonably well-polished and presented. This includes layouts, colors, fonts, animations/feedback from interactions, etc.  
-4) Your app must use Firebase Authentication (https://firebase.google.com/docs/auth) for user management with support for username/password (there is an optional feature for supporting other log-in approaches, but username password *must* be an option). The login information should be stored on the local device such that it need not be re-entered everytime the application is started.  
-5) Your app must store and retrieve some user-created data from Firebase [Cloud Firestore](https://firebase.google.com/docs/firestore).
 
-### Optional Requirements
+1) Your app must start on a log-in screen. Your app must use Firebase Authentication (https://firebase.google.com/docs/auth) for user management with support for username/password. (You are welcome to add Google Authentication as an optional feature, but username/password support *must* exist.) 
+2) At least 3 or 4 "screens" or major features (**not including the log-in screen**) - if working as a pair, you are required to support 4 "screens", but as an individual, you only need 3. These screens must have at least one major feature with at least one user interaction. Trivial screens/splash screens/screens that do not tie to app features will not be accepted.  
+3) App can be interrupted without losing UI state (example, if I'm using the app, then rotate the phone, minimize it to take a phone call, then reopen the app, the state should be preserved)  
+4) Design and Presentation - Your app should be reasonably well-polished and presented. This includes layouts, colors, fonts, animations/feedback from interactions, etc.  
+5) Your app must store and retrieve some user-created data from Firebase [Cloud Firestore](https://firebase.google.com/docs/firestore).
+6) There must be some in-app interactions with data created by other users via Cloud Firestore. 
+
+### Optional Requirements (50XP , up to 75XP with bonus)
 
 You must select up to 50 XP's worth of features to get full credit. You can earn up to, but not in excess of, 75 XP's worth of features (that is, 25XP extra credit) - You cannot propose more than 75XP, however. Additionally, you cannot later implement features you didn't propose for extra credit.
 
 25 XP - Consume data from some relevant external API that meaningfully ties to the app. Note that using Firebase here does not count: you need to use a **relevant** external API (you must state in your declaration exactly which API you plan to use and what you plan to use it for - do not say "we'll find a ______ API" - be specific)
+
+25 XP - User can Upload/Download, (for example, things like profile pictures, images, etc.). using [**Cloud Storage**](https://firebase.google.com/docs/storage)
 
 25 XP - Use of Camera directly in the app (this is *not* the same as using the Pictures folder to access existing pictures or other files)
 
@@ -291,13 +295,13 @@ You must select up to 50 XP's worth of features to get full credit. You can earn
 
 20 XP - Meaningful use of accelerometer with "shaking" - same requirements as above. Be aware, you cannot do *both* tilting and shaking, but you may do one or the other.
 
-15 XP - File Downloading/Uploading, including things like profile pictures, images, etc.
-
 15 XP - Meaningful user settings/preferences that are persisted locally on the device (you need at least 3 meaningful settings)
 
 15 XP - Share functionality for sharing via email, SMS, Facebook, Twitter, etc. - must interact with some other app in a meaningful way.
 
-Other features - you may propose other features which can be accepted and assigned XP at the instructor's discretion.
+10 XP - support for Google authentication on log-in.
+
+Other features - you may propose other features which can be accepted and assigned XP at the instructor's discretion. Generally ask on Piazza before listing this on the declaration.
 
 ### Project Declaration
 
@@ -306,5 +310,4 @@ A formal template will be posted soon, however, you should submit a project prop
 1) What is the general purpose of the application.  
 2) What platform you will be using  (Android native, Flutter, or iOS)  
 3) What features and screens you intend to implement  
-4) What data will be stored in Cloud Firebase  
-5) Which optional features do you intend to implement, and how will they  contribute to the applications features.  
+4) Which optional features do you intend to implement, and how will they  contribute to the applications features.  
