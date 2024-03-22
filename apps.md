@@ -257,23 +257,33 @@ For the final project, you may make your app using any of the following:
 We will flesh out the GitHub assignment link and proposal form in class on Friday. However, in general, your app requirements break down into two groups:
 
 1) **Required** requirements (200XP)  - All of these requirements must be implemented to a professional level.  
-2) **Optional** requirements (50XP up to 75XP) - you must select a subset of several features to implement, but are not required to implement all the features. Be aware that you *must* implement 120 XPs worth of optional features to receive full credit.  
+2) **Optional** requirements (50XP up to 75XP) - you must select a subset of several features to implement, but are not required to implement all the features. Be aware that you *must* implement 50 XPs worth of optional features to receive required credit.  
 
 ### Prohibited applications
 
 Applications similar to previous homeworks or in-class examples are explicitly prohibited. You must be building something unique from any previous class work. 
+
+### Project Repository
+
+If working in a pair, only **one** person create the team on the GitHub Classroom link below. The second teammate can then join your project. If working alone, create your repository using the same link below:
+
+https://classroom.github.com/a/7f5ChoRu
+
+
+Be aware this will start you with an empty repository. Before adding any code/project files, make sure to add an appropriate .gitignore and ReadMe.md file
+
 
 ### Require Features (200XP)
 
 Your project must implement *all* of the following features:
 
 
-1) Your app must start on a log-in screen. Your app must use Firebase Authentication (https://firebase.google.com/docs/auth) for user management with support for username/password. (You are welcome to add Google Authentication as an optional feature, but username/password support *must* exist.) 
-2) At least 3 or 4 "screens" or major features (**not including the log-in screen**) - if working as a pair, you are required to support 4 "screens", but as an individual, you only need 3. These screens must have at least one major feature with at least one user interaction. Trivial screens/splash screens/screens that do not tie to app features will not be accepted.  
-3) App can be interrupted without losing UI state (example, if I'm using the app, then rotate the phone, minimize it to take a phone call, then reopen the app, the state should be preserved)  
+1) Your app must start on a log-in screen. Your app must use Firebase Authentication (https://firebase.google.com/docs/auth) for user management with support for username/password. (You are welcome to add Google Authentication as an optional feature, but username/password support *must* exist.)   
+2) At least 3 or 4 "screens" or major features (**not including the log-in screen**) - if working as a pair, you are required to support 4 "screens", but as an individual, you only need 3. These screens must have at least one major feature with at least one user interaction. Trivial screens/splash screens/screens that do not tie to app features will not be accepted.   
+3) App can be interrupted without losing UI state (example, if I'm using the app, then rotate the phone, minimize it to take a phone call, then reopen the app, the state should be preserved)    
 4) Design and Presentation - Your app should be reasonably well-polished and presented. This includes layouts, colors, fonts, animations/feedback from interactions, etc.  
-5) Your app must store and retrieve some user-created data from Firebase [Cloud Firestore](https://firebase.google.com/docs/firestore).
-6) There must be some in-app interactions with data created by other users via Cloud Firestore. 
+5) Your app must store and retrieve some user-created data from Firebase [Cloud Firestore](https://firebase.google.com/docs/firestore).  
+6) There must be some in-app interactions with data created by other users via Cloud Firestore.  
 
 ### Optional Requirements (50XP , up to 75XP with bonus)
 
